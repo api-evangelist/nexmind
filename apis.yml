@@ -1,7 +1,27 @@
 aid: nexmind
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexmind.png
 name: NexMind
-description: NexMind is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'NexMind (operating as NexLaw) is a legal AI platform for U.S. litigators
+  and law firms, offering secure, hallucination-free AI that drafts, summarizes, and
+  researches legal work up to 10x faster. Its products include NeXa (AI legal research
+  and drafting assistant), ChronoVault (evidence centralization and automated case
+  timelines), TrialPrep (trial preparation workspace for arguments and witness outlines),
+  and a real-time Courtroom Assistant, with capabilities spanning citation-backed legal
+  deep research, deposition and document analysis, case chronology building, legal
+  memo drafting, and contract and breach analysis. NexLaw is a direct-to-user SaaS
+  product; as of this enrichment pass it publishes no public developer API, SDK, or
+  developer documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/nexmind/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Legal
+- Legal AI
+- Legal Research
+- Artificial Intelligence
+- Litigation
+- Document Analysis
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nexmind-domain-security.yml
 - type: Website
   url: https://nexlaw.ai
+- type: Blog
+  url: https://nexlaw.ai/blog/
+- type: Pricing
+  url: https://nexlaw.ai/pricing/
+- type: Support
+  url: https://nexlaw.ai/help-center/
+- type: Login
+  url: https://platform.nexlaw.ai/
+- type: TermsOfService
+  url: https://nexlaw.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://nexlaw.ai/privacy-policy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
