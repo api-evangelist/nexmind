@@ -1,0 +1,38 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.nexlaw.ai/pricing/
+sources:
+- https://www.nexlaw.ai/pricing/
+- https://nexlaw.ai/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Annual billing per license; page states no implementation fee. No API pricing shown.
+plan_count: 2
+currency: USD
+plans:
+- name: Essential
+  price_text: $2999 /year
+  price: 2999
+  currency: USD
+  period: year
+  unit: per license
+  included_quota: Solo Practicioner & Boutique Litigation Firms; core features; onboarding, updates, standard
+    support; 5 Days Complimentary Trial
+- name: Professional
+  price_text: $3999 /year
+  price: 3999
+  currency: USD
+  period: year
+  unit: per license
+  included_quota: Everything in Essential, plus ChronoVault chronologies, red teaming, risk modeling,
+    volume seat licensing, custom DPA
